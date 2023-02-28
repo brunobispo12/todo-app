@@ -1,0 +1,66 @@
+section{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.todolist{
+    background-color: #62466B;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.todolist h2{
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.inputTasks{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.inputTasks input{
+    margin-left: 25px;
+    width: 75%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-indent: 10px;
+}
+
+.inputTasks input:focus{
+    outline: none;
+}
+
+.inputTasks button{
+    width: 5%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    padding: 25px;
+    text-indent: 5px;
+}
+
+th{
+    text-align: start;
+    border-bottom: 1px solid white;
+}
+
+td button{
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffffffde;
+}
